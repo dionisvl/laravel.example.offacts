@@ -1,0 +1,26 @@
+{
+    "name": "appsmart/products",
+    "description": "Module for OpenFoodFacts API test use",
+    "authors": [
+        {
+            "name": "Den",
+            "email": "dionisvl3@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AppSmart\\Products\\": "./src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": "~7"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AppSmart\\Products\\ProductsServiceProvider"
+            ]
+        }
+    }
+}
